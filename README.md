@@ -22,42 +22,41 @@ Allow administrators to manage products, track orders, and oversee the applicati
 
 ## 🛠️ Technologies Used
 - Frontend:
-- - React.js: For building a dynamic and responsive user interface.
-- - Redux: To manage the application's state effectively.
-- - Tailwind CSS: Ensures modern and adaptive UI design with minimal effort.
-- - Axios: For making seamless API calls to interact with the backend services.
+  -  React.js: For building a dynamic and responsive user interface.
+  -  Redux: To manage the application's state effectively.
+  -  Tailwind CSS: Ensures modern and adaptive UI design with minimal effort.
+  -  Axios: For making seamless API calls to interact with the backend services.
 - Backend:
-- - Spring Boot: Provides a robust and scalable backend structure.
-- - Spring Security: Adds authentication and authorization mechanisms.
-- - Spring Data JPA: Facilitates easy database access and management.
+  -  Spring Boot: Provides a robust and scalable backend structure.
+  -  Spring Security: Adds authentication and authorization mechanisms.
+  -  Spring Data JPA: Facilitates easy database access and management.
 - Database:
-- - PostgreSQL: A reliable and powerful relational database system for storing and managing application data.
+  -  PostgreSQL: A reliable and powerful relational database system for storing and managing application data.
 - Authentication:
-- - JWT (JSON Web Tokens): For secure and stateless user authentication.
+  -  JWT (JSON Web Tokens): For secure and stateless user authentication.
 - Build Tools:
-- - Maven: For managing backend dependencies and project builds.
-- - Webpack: For optimizing and bundling frontend assets.
-- - 📚 Project Modules
+  -  Maven: For managing backend dependencies and project builds.
+  -  Webpack: For optimizing and bundling frontend assets.
+
+## 📚 Project Modules
 - Frontend (React.js):
+  -  Home and Product Listing Pages
+  -  Detailed Product View
+  -  Shopping Cart and Checkout Pages
+  -  Authentication Pages (Login, Signup, Password Recovery)
 
-- - Home and Product Listing Pages
-- - Detailed Product View
-- - Shopping Cart and Checkout Pages
-- - Authentication Pages (Login, Signup, Password Recovery)
 - Backend (Spring Boot):
-
-- - API Endpoints for managing products, users, and orders
-- - Secure authentication and user management
-- - Database (PostgreSQL):
-
-- - Tables for Products, Users, Orders, and Transactions
-- - Relationships between entities for efficient data querying
+  -  API Endpoints for managing products, users, and orders
+  -  Secure authentication and user management
+    
+- Database (PostgreSQL):
+  -  Tables for Products, Users, Orders, and Transactions
+  -  Relationships between entities for efficient data querying
+    
 - Authentication:
+  -  Secure login and signup processes with encrypted passwords
+  -  Token-based access to protected routes
 
-- - Secure login and signup processes with encrypted passwords
-- - Token-based access to protected routes
-- Order and Payment Management (Planned):
-- - Order status tracking and notifications
 ## 🛤️ Future Enhancements
 - Product Recommendations: Add AI-driven product suggestions.
 - Multi-Vendor Support: Allow multiple sellers to list and manage their products.
